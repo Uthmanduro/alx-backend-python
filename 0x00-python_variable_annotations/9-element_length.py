@@ -4,4 +4,5 @@ from typing import Sequence, List, Iterable, Tuple
 
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+    """function to be annotated"""
     return [(i, len(i)) for i in lst]
