@@ -3,7 +3,7 @@
 import asyncio
 import random
 import time
-from typing import Generator, List
+from typing import Iterator
 async_comprehension = __import__('1-async_comprehension').async_comprehension
 
 
